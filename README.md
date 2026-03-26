@@ -83,6 +83,6 @@ This project is developed for educational purposes only.
 ## Screenshots 📸
 
 ### Home Screen
-<img src="![home](https://github.com/user-attachments/assets/8fa80f4b-a344-4235-92c5-d4259cc61199)
-">
+<img src="screenshots/home.jpeg" width="300">
+
 
