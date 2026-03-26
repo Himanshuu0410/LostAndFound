@@ -83,6 +83,6 @@ This project is developed for educational purposes only.
 ## Screenshots 📸
 
 ### Home Screen
-<img src="screenshots/home.jpeg" width="300">
+<img src="home.jpeg" width="300">
 
 
