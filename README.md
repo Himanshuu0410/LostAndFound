@@ -79,3 +79,15 @@ Future updates may include:
 ## License 📄
 
 This project is developed for educational purposes only.
+
+## Screenshots 📸
+
+### Home Screen
+![Home Screen]![homescreen](https://github.com/user-attachments/assets/27261135-cc1e-4348-995b-d9fdaf68765a)
+
+
+### Add Lost Item Screen
+![Add Lost Item](add_item.png)
+
+### Add Found Item Screen
+![Add Found Item](found_item.png)
