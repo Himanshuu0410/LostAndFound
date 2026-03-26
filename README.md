@@ -83,11 +83,6 @@ This project is developed for educational purposes only.
 ## Screenshots 📸
 
 ### Home Screen
-![Home Screen]![homescreen](https://github.com/user-attachments/assets/27261135-cc1e-4348-995b-d9fdaf68765a)
+<img src="![WhatsApp Image 2026-03-24 at 6 52 01 PM](https://github.com/user-attachments/assets/6d2e3a08-7d24-48c5-8f82-85463f484577)
+" width="300">
 
-
-### Add Lost Item Screen
-![Add Lost Item](add_item.png)
-
-### Add Found Item Screen
-![Add Found Item](found_item.png)
