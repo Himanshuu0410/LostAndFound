@@ -83,6 +83,6 @@ This project is developed for educational purposes only.
 ## Screenshots 📸
 
 ### Home Screen
-<img src="![WhatsApp Image 2026-03-24 at 6 52 01 PM](https://github.com/user-attachments/assets/6d2e3a08-7d24-48c5-8f82-85463f484577)
-" width="300">
+<img src="![home](https://github.com/user-attachments/assets/8fa80f4b-a344-4235-92c5-d4259cc61199)
+">
 
