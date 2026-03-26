@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp"
+        android:gravity="center">
+
+        <!-- Logo -->
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:background="@drawable/btn_primary_accent"
+            android:text="🔍"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lost &amp; Found"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Community Recovery Platform"
+            android:textSize="12sp"
+            android:textColor="@color/text_muted"
+            android:layout_marginBottom="36dp"/>
+
+        <!-- Welcome buttons -->
+        <LinearLayout
+            android:id="@+id/layoutWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnShowLogin"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Login to Account"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@drawable/btn_primary_accent"
+                android:layout_marginBottom="12dp"/>
+
+            <Button
+                android:id="@+id/btnShowRegister"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Create New Account"
+                android:textSize="15sp"
+                android:textColor="@color/text_primary"
+                android:background="@drawable/btn_filter_inactive"
+                android:layout_marginBottom="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Demo: demo@test.com / demo123"
+                android:textSize="11sp"
+                android:textColor="@color/text_muted"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <!-- Login form (hidden by default) -->
+        <LinearLayout
+            android:id="@+id/layoutLoginForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="← Back"
+                android:textColor="@color/text_muted"
+                android:textSize="13sp"
+                android:layout_marginBottom="20dp"
+                android:padding="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign In"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:layout_marginBottom="24dp"/>
+
+            <!-- Email -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EMAIL"
+                android:textSize="11sp"
+                android:textColor="@color/text_muted"
+                android:letterSpacing="0.08"
+                android:layout_marginBottom="6dp"/>
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="you@example.com"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_muted"
+                android:background="@drawable/bg_input"
+                android:paddingHorizontal="14dp"
+                android:layout_marginBottom="14dp"/>
+
+            <!-- Password -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PASSWORD"
+                android:textSize="11sp"
+                android:textColor="@color/text_muted"
+                android:letterSpacing="0.08"
+                android:layout_marginBottom="6dp"/>
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="••••••••"
+                android:inputType="textPassword"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_muted"
+                android:background="@drawable/bg_input"
+                android:paddingHorizontal="14dp"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Error -->
+            <TextView
+                android:id="@+id/tvError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="@color/lost"
+                android:background="@drawable/badge_lost"
+                android:padding="10dp"
+                android:layout_marginBottom="14dp"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Sign In →"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_primary_accent"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/tvGoRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account? Register"
+                android:textSize="13sp"
+                android:textColor="@color/accent"
+                android:layout_gravity="center"
+                android:padding="8dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

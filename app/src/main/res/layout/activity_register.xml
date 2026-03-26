@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <TextView
+            android:id="@+id/tvBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Back"
+            android:textColor="@color/text_muted"
+            android:textSize="13sp"
+            android:padding="4dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="6dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Join the community and help reunite lost items"
+            android:textSize="13sp"
+            android:textColor="@color/text_muted"
+            android:layout_marginBottom="28dp"/>
+
+        <!-- Full name -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="FULL NAME" android:textSize="11sp" android:textColor="@color/text_muted"
+            android:letterSpacing="0.08" android:layout_marginBottom="6dp"/>
+        <EditText
+            android:id="@+id/etFullName"
+            android:layout_width="match_parent" android:layout_height="50dp"
+            android:hint="Your full name"
+            android:textColor="@color/text_primary" android:textColorHint="@color/text_muted"
+            android:background="@drawable/bg_input" android:paddingHorizontal="14dp"
+            android:layout_marginBottom="14dp"/>
+
+        <!-- Email -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="EMAIL" android:textSize="11sp" android:textColor="@color/text_muted"
+            android:letterSpacing="0.08" android:layout_marginBottom="6dp"/>
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent" android:layout_height="50dp"
+            android:hint="you@example.com" android:inputType="textEmailAddress"
+            android:textColor="@color/text_primary" android:textColorHint="@color/text_muted"
+            android:background="@drawable/bg_input" android:paddingHorizontal="14dp"
+            android:layout_marginBottom="14dp"/>
+
+        <!-- Password -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="PASSWORD" android:textSize="11sp" android:textColor="@color/text_muted"
+            android:letterSpacing="0.08" android:layout_marginBottom="6dp"/>
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent" android:layout_height="50dp"
+            android:hint="Min. 6 characters" android:inputType="textPassword"
+            android:textColor="@color/text_primary" android:textColorHint="@color/text_muted"
+            android:background="@drawable/bg_input" android:paddingHorizontal="14dp"
+            android:layout_marginBottom="14dp"/>
+
+        <!-- Confirm password -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="CONFIRM PASSWORD" android:textSize="11sp" android:textColor="@color/text_muted"
+            android:letterSpacing="0.08" android:layout_marginBottom="6dp"/>
+        <EditText
+            android:id="@+id/etConfirmPass"
+            android:layout_width="match_parent" android:layout_height="50dp"
+            android:hint="Re-enter password" android:inputType="textPassword"
+            android:textColor="@color/text_primary" android:textColorHint="@color/text_muted"
+            android:background="@drawable/bg_input" android:paddingHorizontal="14dp"
+            android:layout_marginBottom="14dp"/>
+
+        <!-- Error -->
+        <TextView
+            android:id="@+id/tvError"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="13sp" android:textColor="@color/lost"
+            android:background="@drawable/badge_lost" android:padding="10dp"
+            android:layout_marginBottom="14dp" android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="Create Account →"
+            android:textSize="15sp" android:textStyle="bold" android:textColor="@color/white"
+            android:background="@drawable/btn_primary_accent"/>
+
+    </LinearLayout>
+</ScrollView>

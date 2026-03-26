@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="bg">#0C0E1A</color>
+    <color name="surface">#13162A</color>
+    <color name="card">#181C33</color>
+    <color name="border">#252A45</color>
+
+    <color name="accent">#FF6B35</color>
+    <color name="accent_soft">#1AFF6B35</color>
+
+    <color name="teal">#00D4C8</color>
+
+    <color name="text_primary">#F0F2FF</color>
+    <color name="text_muted">#8890B0</color>
+
+    <color name="lost">#FF4D6D</color>
+    <color name="lost_soft">#18FF4D6D</color>
+
+    <color name="found">#00C896</color>
+    <color name="found_soft">#1800C896</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!-- Material theme required -->
+    <color name="colorPrimary">#FF6B35</color>
+    <color name="colorPrimaryDark">#0C0E1A</color>
+    <color name="colorAccent">#FF6B35</color>
+</resources>
